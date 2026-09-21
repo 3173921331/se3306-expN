@@ -51,15 +51,15 @@
 ### 任务四 性能测量结果
 |模式|首屏HTML大小|白屏时间(FCP)|LCP|SEO(源码含正文?)|适用场景|
 |---|---|---|---|---|---|
-|CSR| | | |否|后台管理系统、强交互页面、SEO要求低|
-|SSR| | | |是|内容动态更新、需要SEO、需要个性化页面|
-|SSG| | | |是|博客、文档、静态活动页、内容不常更新|
+|CSR|391|0.5s|0.5s|否|后台管理系统、强交互页面、SEO要求低|
+|SSR|752|0.2s|0.2s|是|内容动态更新、需要SEO、需要个性化页面|
+|SSG|671|0.2s|0.2s|是|博客、文档、静态活动页、内容不常更新|
 
 ## 五、部署地址
-- CSR静态部署地址：【粘贴你的EdgeOne Pages/帽子云HTTPS链接】
-- SSG静态部署地址：【粘贴你的EdgeOne Pages/帽子云HTTPS链接】
-- SSR云托管部署地址：【粘贴腾讯云CloudBase云托管域名链接】
-Gitee仓库地址：【粘贴你的gitee公开仓库地址】
+- CSR静态部署地址：https://f5j198us8-lab1csr-3hgd2w7.maozi.io/
+- SSG静态部署地址：https://6w5yb7ub9-lab1ssg-3hgd2w7.maozi.io/
+- SSR云托管部署地址：无
+Gihub仓库地址：https://github.com/3173921331/se3306-expN/tree/main/se3306-exp1
 
 ## 六、思考题（必答题）
 ### （1）为什么SPA时代SEO差？
