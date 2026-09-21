@@ -32,7 +32,7 @@
 3. `The current branch main has no upstream branch`，缺少上游追踪分支；
 4. 帽子云部署报错：`ERROR: 未知服务类型：检测到当前应用非 Some[static] 应用`，帽子云构建设置未正确填写；
 5. 混淆 `pnpm run dev`（本地开发）与`pnpm run build`（生产打包），误以为部署需要运行dev服务；
-6. 腾讯云CloudBase云托管存在实名扣费风险，改用Replit作为SSR动态服务替代部署方案。
+6. SSR 部署尝试：因腾讯云 CloudBase 存在实名扣费风险，未采用云托管；改用本地 `node server.js` 验证 SSR 效果，未提交云托管链接。
 
 > 签名：_叶伊杰_
 > 日期：2026‑09‑21
